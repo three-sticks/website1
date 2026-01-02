@@ -1,5 +1,6 @@
 {
   "name": "simplefolio",
+  "homepage": "https://three-sticks.github.io/website1",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -7,6 +8,9 @@
   "scripts": {
     "start": "parcel src/index.html --port 5000 --host 0.0.0.0",
     "build": "parcel build src/index.html --public-url ./ --dist-dir dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+}
   },
   "repository": {
     "type": "git",
