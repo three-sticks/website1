@@ -1,4 +1,5 @@
 import "./styles.scss";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import initScrollReveal from "./scripts/scrollReveal";
 import initTiltAnimation from "./scripts/tiltAnimation";
 import { targetElements, defaultProps } from "./data/scrollRevealConfig";
