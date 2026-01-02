@@ -6,7 +6,7 @@
   "source": "styles.scss",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /website1/ --dist-dir dist"
+    "build": "parcel build src/index.html --public-url /website1/ --dist-dir dist"
   },
   "repository": {
     "type": "git",
