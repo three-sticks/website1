@@ -1,16 +1,13 @@
 {
   "name": "simplefolio",
-  "homepage": "https://three-sticks.github.io/website1",
   "version": "1.0.1",
-  "private": "true",
+  "homepage": "https://three-sticks.github.io/website1",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --port 5000 --host 0.0.0.0",
-    "build": "parcel build src/index.html --public-url ./ --dist-dir dist"
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-}
+    "build": "parcel build src/index.html src/meet-dyotha.html src/get-involved.html src/voter-information.html --public-url ./ --dist-dir dist"
   },
   "repository": {
     "type": "git",
@@ -22,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
