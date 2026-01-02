@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -20,7 +9,6 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   />
-    <link rel="stylesheet" href="src/css/style.css">
   
     <title>She Politix | Political Operations & Strategy</title>
 <meta name="keywords" content="She Politix, campaign strategy, political consulting, Ashleigh Phillips, operations, vendor management, political staffing" />
@@ -30,6 +18,7 @@
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 />
+
     
     <script
       defer
@@ -52,7 +41,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   <div class="container">
     <nav class="nav">
       <a href="index.html" class="nav-logo" style="font-weight: bold; font-size: 1.8rem; color: white; text-decoration: none;">
-        She Politix
+        Dyotha Sweat
       </a>
       <ul class="nav-menu">
         <li class="current"><a href="index.html">Home</a></li>
@@ -73,203 +62,170 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
     <!-- **** Top bar **** -->
     <section id="hero" class="jumbotron" style="
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/SHE-Poltix LOGO.jpg') center top / contain no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/home-hero.jpg') center top / cover no-repeat;
     padding: 6rem 1rem 4rem 1rem;
-    min-height: 450px;
-    background-size: contain;
+    min-height: 500px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 80px;
+    background-position: center 20%;
   ">
     <div class="container text-center">
-      <p class="hero-subtitle load-hidden" style="color: #f0f0f0; font-size: 1.2rem; max-width: 600px; margin: 0 auto;">
+      <h1 class="hero-title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 3rem; margin-bottom: 2rem;">
+        Dyotha Sweat | Democrat for President of the Charles County Board of Commissioners
+      </h1>
+      <p class="hero-subtitle" style="color: #ffffff; font-size: 1.4rem; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
         She Politix handles the behind-the-scenes so you can lead with vision.
       </p>
-      <div class="hero-cta load-hidden" style="margin-top: 1.5rem;">
-        <!-- <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about" style="margin: 0.5rem;">Learn More</a> -->
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://calendly.com/ashleigh-shepolitix" target="_blank" style="margin: 0.5rem;">Book a Consultation</a>
+      <div class="hero-cta" style="margin-top: 2.5rem;">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#donate" style="margin: 0.5rem; background: #bf0a30; border-color: #bf0a30;">Donate to Dyotha</a>
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="get-involved.html" style="margin: 0.5rem;">Volunteer</a>
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#newsletter" style="margin: 0.5rem;">Sign Up for Updates</a>
       </div>
     </div>
   </section>
 
-<!-- **** Projects Section **** -->
-<section id="projects">
+<!-- **** Priorities Section **** -->
+<section id="priorities" style="padding: 5rem 0; background: #f8f9fa;">
   <div class="container">
-    <div class="project-wrapper">
-      <h2 class="section-title white-text">Our Services</h2>
-
-      <div class="row">
-        <!-- Service 1 -->
-        <div class="col-md-4 col-sm-12 mb-4">
-          <div class="project-wrapper__text load-hidden text-center">
-            <i class="fas fa-map-signs fa-3x mb-3"></i>
-            <h4>Strategic Campaign Planning</h4>
-            <p>
-              We build data-driven, voter-focused campaign plans tailored to each candidate’s goals and landscape.
-            </p>
+    <h2 class="section-title" style="color: #002868;">Our Priorities</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion" id="prioritiesAccordion">
+          <div class="accordion-item mb-3 shadow-sm border-0">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#priority1" style="font-weight: bold; color: #002868;">
+                Economic Growth & Opportunity
+              </button>
+            </h2>
+            <div id="priority1" class="accordion-collapse collapse" data-bs-parent="#prioritiesAccordion">
+              <div class="accordion-body">
+                We are committed to fostering a thriving local economy by supporting small businesses, investing in workforce development, and attracting sustainable industries to Charles County.
+              </div>
+            </div>
           </div>
-        </div>
-
-        <!-- Service 2 -->
-        <div class="col-md-4 col-sm-12 mb-4">
-          <div class="project-wrapper__text load-hidden text-center">
-            <i class="fas fa-coins fa-3x mb-3"></i>
-            <h4>Budget Management</h4>
-            <p>
-              From fundraising to compliance, we handle the numbers so you can stay on message and on mission.
-            </p>
+          <div class="accordion-item mb-3 shadow-sm border-0">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#priority2" style="font-weight: bold; color: #002868;">
+                Education Excellence
+              </button>
+            </h2>
+            <div id="priority2" class="accordion-collapse collapse" data-bs-parent="#prioritiesAccordion">
+              <div class="accordion-body">
+                Ensuring every student has access to high-quality education, modern facilities, and the resources they need to succeed in a 21st-century economy.
+              </div>
+            </div>
           </div>
-        </div>
-
-        <!-- Service 3 -->
-        <div class="col-md-4 col-sm-12 mb-4">
-          <div class="project-wrapper__text load-hidden text-center">
-            <i class="fas fa-handshake fa-3x mb-3"></i>
-            <h4>Vendor Selection & Negotiation</h4>
-            <p>
-              We connect you with trusted vendors and negotiate contracts that protect your values and your budget.
-            </p>
+          <div class="accordion-item mb-3 shadow-sm border-0">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#priority3" style="font-weight: bold; color: #002868;">
+                Sustainable Infrastructure
+              </button>
+            </h2>
+            <div id="priority3" class="accordion-collapse collapse" data-bs-parent="#prioritiesAccordion">
+              <div class="accordion-body">
+                Investing in our roads, public transit, and green spaces to improve quality of life and ensure Charles County is prepared for future growth.
+              </div>
+            </div>
           </div>
-        </div>
-
-        <!-- Service 4 -->
-        <div class="col-md-4 col-sm-12 mb-4">
-          <div class="project-wrapper__text load-hidden text-center">
-            <i class="fas fa-calendar-check fa-3x mb-3"></i>
-            <h4>Event Logistics & Coordination</h4>
-            <p>
-              Whether it’s a fundraiser or a town hall, we manage logistics to create seamless, impactful experiences.
-            </p>
-          </div>
-        </div>
-
-        <!-- Service 5 -->
-        <div class="col-md-4 col-sm-12 mb-4">
-          <div class="project-wrapper__text load-hidden text-center">
-            <i class="fas fa-users fa-3x mb-3"></i>
-            <h4>Staff & Volunteer Recruitment</h4>
-            <p>
-              We help you build a team of skilled and passionate individuals aligned with your campaign’s mission.
-            </p>
-          </div>
-        </div>
-
-        <!-- Service 6 -->
-        <div class="col-md-4 col-sm-12 mb-4">
-          <div class="project-wrapper__text load-hidden text-center">
-            <i class="fas fa-user-check fa-3x mb-3"></i>
-            <h4>Volunteer Program Management</h4>
-            <p>
-              From training to scheduling, we implement systems that maximize volunteer impact and retention.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Optional Team Headshot -->
-      <div class="row mt-5">
-        <div class="col-sm-12 text-center">
-          <!-- <img
-            alt="Ashleigh Phillips"
-            class="img-fluid rounded"
-            src="assets/Headshot.jpg"
-            style="max-width: 300px;"
-          /> -->
-          <p class="mt-3">
-            We understand that every campaign and organization is unique. Our services are flexible and customizable to
-meet the specific needs and goals of your campaign. Get in touch to discuss how we can best support your
-specific vision
-          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- /END Projects Section -->
-  
 
-  <!-- **** Work With Us Section **** -->
-<!-- <section id="signup-section" class="signup-section">
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-md-6">
-        <div class="signup-logo">
-          <h1> Book a Consultation</h1>
-          
-          <h2>How It Works</h2>
-          <p>
-            1. <strong>Select Your Time:</strong> Choose a convenient time for your consultation. Note that same-day appointments are not available.<br /><br />
-            2. <strong>Pay the Fee:</strong> A consultation fee of $75 is required to book your session. This helps ensure our time is reserved exclusively for you.<br /><br />
-            3. <strong>Confirmation & Zoom Link:</strong> Once your consultation is scheduled and payment is processed, you’ll automatically receive a Zoom link to join the meeting.
-          </p>
-          
-         
-          </div>
+<!-- **** Events Section **** -->
+<section id="events" style="padding: 5rem 0;">
+  <div class="container text-center">
+    <h2 class="section-title" style="color: #002868;">Upcoming Events</h2>
+    <p>Stay tuned for our upcoming campaign events and town halls.</p>
+    <div class="row mt-4">
+      <div class="col-md-6 mx-auto">
+        <div class="card shadow-sm border-0 p-4">
+          <h5>No upcoming events scheduled yet.</h5>
+          <p>Sign up for our newsletter to be the first to know!</p>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
 
-      
-      <div class="col-md-6">
-        <form class="signup-form" action="https://formspree.io/f/mqaagowb" method="POST">
-          <input type="text" name="name" placeholder="Full Name*" required />
-          <input type="email" name="email" placeholder="Email*" required />
-          <input type="text" name="organization" placeholder="Organization or Campaign Name" />
-          <textarea name="message" placeholder="Tell us about your project or campaign..." rows="5" required></textarea>
-          
-          <button type="submit">Request Consultation</button>
+<!-- **** Endorsements Section **** -->
+<section id="endorsements" style="padding: 5rem 0; background: #f8f9fa;">
+  <div class="container text-center">
+    <h2 class="section-title" style="color: #002868;">Endorsements</h2>
+    <div class="row mt-4">
+      <div class="col-md-8 mx-auto">
+        <div class="p-5 border-2 border-dashed rounded" style="border: 2px dashed #ccc;">
+          <p class="text-muted">Endorsements will be displayed here as they are received.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- **** Donation Section **** -->
+<section id="donate" style="padding: 5rem 0;">
+  <div class="container">
+    <h2 class="section-title" style="color: #002868;">Support Dyotha’s Grassroots Campaign</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="card shadow-lg border-0 p-4 text-center">
+          <p class="mb-4">Select an amount to contribute:</p>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="#" class="cta-btn cta-btn--hero" style="min-width: 100px;">$5</a>
+            <a href="#" class="cta-btn cta-btn--hero" style="min-width: 100px;">$25</a>
+            <a href="#" class="cta-btn cta-btn--hero" style="min-width: 100px;">$100</a>
+            <a href="#" class="cta-btn cta-btn--hero" style="min-width: 100px;">$250</a>
+            <a href="#" class="cta-btn cta-btn--hero" style="min-width: 100px;">$500</a>
+            <a href="#" class="cta-btn cta-btn--hero" style="min-width: 100px;">Other</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- **** Footer Section **** -->
+<footer class="footer navbar-static-bottom" style="background: #002868; color: white; padding: 4rem 0 2rem;">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-4 mb-4">
+        <h5 style="color: white; font-weight: bold;">Campaign Information</h5>
+        <p>PO Box 1234<br>Waldorf, MD 20601</p>
+        <p>Email: <a href="mailto:info@dyothasweat.com" style="color: white;">info@dyothasweat.com</a></p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h5 style="color: white; font-weight: bold;">Follow Us</h5>
+        <div class="social-links mt-3">
+          <a rel="noreferrer" href="https://www.facebook.com/people/She-Politix/61573773366135/#" target="_blank" style="color: white; margin: 0 10px;">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.instagram.com/shepolitix/" target="_blank" style="color: white; margin: 0 10px;">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <div id="newsletter" class="col-md-4 mb-4">
+        <h5 style="color: white; font-weight: bold;">Newsletter Signup</h5>
+        <p>Subscribe to stay informed about all the latest campaign news and updates.</p>
+        <form class="mt-3">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your Email Address" required>
+            <button class="btn" type="submit" style="background: #bf0a30; color: white;">Subscribe</button>
+          </div>
         </form>
       </div>
     </div>
-  </div>
-</section>
- -->
-
-<!-- **** Contact Section **** -->
-<section id="contact">
-  <div class="container">
-    <h2 class="section-title">Contact She Politix</h2>
-    <div class="contact-wrapper load-hidden">
-      <p class="contact-wrapper__text">
-        Ready to elevate your campaign operations? Whether you're in the early stages of planning or need expert support mid-cycle, She Politix is here to help. Reach out and let’s discuss how we can work together to deliver results behind the scenes.
-      </p>
-      <a
-        rel="noreferrer"
-        target="_blank"
-        class="cta-btn cta-btn--resume"
-        href="mailto:info@shepolitix.com"
-      >
-        Contact Us
-      </a>
-      <p class="contact-wrapper__text">
-        Email - info@shepolitix.com
-      </p>
+    <hr style="background: rgba(255,255,255,0.2);" />
+    <div class="text-center">
+      <p class="footer__text" style="color: rgba(255,255,255,0.7);">© 2026 - Dyotha Sweat</p>
+      <div class="mt-2 p-2 border d-inline-block" style="border: 1px solid rgba(255,255,255,0.5) !important;">
+        <p style="margin: 0; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Authority: Friends of Dyotha Sweat, Inez Capone, Treasurer</p>
+      </div>
     </div>
-  </div>
-</section>
-<!-- /END Contact Section -->
-
-
-<!-- **** Footer Section **** -->
-<footer class="footer navbar-static-bottom">
-  <div class="container">
-    <a rel="noreferrer" href="#top" class="back-to-top">
-      <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-    </a>
-    <div class="social-links">
-      <!-- <a rel="noreferrer" href="https://x.com/charlescountyyd?s=21" target="_blank">
-        <i class="fa fa-twitter fa-inverse"></i>
-      </a> -->
-      <a rel="noreferrer" href="https://www.facebook.com/people/She-Politix/61573773366135/#" target="_blank">
-        <i class="fab fa-facebook fa-2x"></i><br />
-      </a>
-      <a rel="noreferrer" href="https://www.instagram.com/shepolitix/" target="_blank">
-        <i class="fab fa-instagram fa-2x"></i><br />
-      </a>
-      
-    </div>
-    <hr />
-    <p class="footer__text">© 2025 - She Politix</p>
   </div>
 </footer>
+
 
     
     <!-- /END Footer Section -->
