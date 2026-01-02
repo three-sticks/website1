@@ -6,7 +6,7 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html src/meet-dyotha.html src/get-involved.html src/voter-information.html --port 5000 --host 0.0.0.0",
+    "start": "parcel src/index.html src/meet-dyotha.html src/get-involved.html src/voter-information.html --port 3000 --host 0.0.0.0",
     "build": "parcel build src/index.html src/meet-dyotha.html src/get-involved.html src/voter-information.html --public-url ./ --dist-dir dist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
