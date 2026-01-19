@@ -32,6 +32,15 @@
       text-decoration: none;
       letter-spacing: 1px; // Slight spacing for modern look
   
+      @include respond(phone) {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+      }
+
+      @include respond(phone-xs) {
+        font-size: 1.3rem;
+      }
+  
       &:hover {
         color: $secondary-color; // Bright blue hover effect
       }
