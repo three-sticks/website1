@@ -18,6 +18,7 @@
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
+    background-position: right center !important; // Show right side (face) on mobile
   }
 
   .hero-title {
