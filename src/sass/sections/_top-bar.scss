@@ -26,19 +26,19 @@
     }
   
     .nav-logo {
-      font-size: 2rem; // Larger logo text
+      font-size: 2.25rem; // Larger logo text, increased by 2pt
       font-weight: bold;
       color: $white-color;
       text-decoration: none;
       letter-spacing: 1px; // Slight spacing for modern look
   
       @include respond(phone) {
-        font-size: 1.5rem;
+        font-size: 1.75rem; // Increased by 2pt
         letter-spacing: 0.5px;
       }
 
       @include respond(phone-xs) {
-        font-size: 1.3rem;
+        font-size: 1.55rem; // Increased by 2pt
       }
   
       &:hover {
@@ -64,7 +64,7 @@
         a {
           color: $white-color;
           text-decoration: none;
-          font-size: 1.2rem;
+          font-size: 1.45rem; // Increased by 2pt
           font-weight: 500;
     
           &:hover {

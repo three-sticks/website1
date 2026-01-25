@@ -9,11 +9,11 @@
 
   &__text {
     color: darken($white-color, 50%);
-    font-size: 1.3rem;
+    font-size: 1.55rem; // Increased by 2pt
 
     a {
       color: darken($white-color, 50%);
-      font-size: 1.3rem;
+      font-size: 1.55rem; // Increased by 2pt
       transition: all 0.4s;
       display: inline-block;
       background-color: $dark-grey;
