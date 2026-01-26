@@ -24,8 +24,8 @@
     <header id="top-bar">
       <div class="container">
         <nav class="nav">
-          <a href="index.html" class="nav-logo" style="font-weight: bold; font-size: 1.8rem; color: white; text-decoration: none;">
-            Dyotha Sweat
+          <a href="index.html#donate" class="nav-logo" style="font-weight: bold; font-size: 1.8rem; color: white; text-decoration: none;">
+            Join the cause
           </a>
           <ul class="nav-menu">
             <li><a href="index.html">Home</a></li>
@@ -44,9 +44,18 @@
     
 
     <!-- **** Top bar **** -->
-<!-- **** Hero Section **** -->
-<section id="hero" class="jumbotron" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/Header.png') center 20%/cover no-repeat;">
-  <div class="container text-center">
+<!-- **** Hero Section with Image Carousel **** -->
+<section id="hero" class="jumbotron hero-carousel" style="min-height: 700px; padding: 6rem 1rem 4rem 1rem; position: relative; overflow: hidden;">
+  <div class="carousel-container">
+    <div class="carousel-slide active" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_1769.jpeg') center/cover no-repeat;"></div>
+    <div class="carousel-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_1770.jpeg') center/cover no-repeat;"></div>
+    <div class="carousel-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_1772.jpeg') center/cover no-repeat;"></div>
+    <div class="carousel-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_1773.jpeg') center/cover no-repeat;"></div>
+    <div class="carousel-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_5846_1767335786093.jpeg') center/cover no-repeat;"></div>
+    <div class="carousel-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_5851_1767335968007.jpeg') center/cover no-repeat;"></div>
+    <div class="carousel-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('assets/IMG_5854_1767335510009.jpeg') center/cover no-repeat;"></div>
+  </div>
+  <div class="container text-center" style="position: relative; z-index: 2;">
     <h1 class="hero-title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
     </h1>
   </div>
@@ -142,10 +151,10 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="https://www.facebook.com/people/She-Politix/61573773366135/#" target="_blank">
+          <a rel="noreferrer" href="https://www.facebook.com/DyothaSweat" target="_blank">
             <i class="fab fa-facebook fa-2x"></i><br />
           </a>
-          <a rel="noreferrer" href="https://www.instagram.com/shepolitix/" target="_blank">
+          <a rel="noreferrer" href="https://www.instagram.com/electdrsweat?igsh=MWV3cWVpd3NqaDNsNQ%3D%3D&utm_source=qr" target="_blank">
             <i class="fab fa-instagram fa-2x"></i><br />
           </a>
         </div>
@@ -155,5 +164,9 @@
     </footer>
 
     <script type="module" src="index.js"></script>
+    <script type="module">
+      import initImageCarousel from './scripts/imageCarousel.js';
+      initImageCarousel();
+    </script>
   </body>
 </html>
