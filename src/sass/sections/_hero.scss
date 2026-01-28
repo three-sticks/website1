@@ -1,6 +1,5 @@
 #hero {
-  min-height: 100vh;
-  height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,11 +12,13 @@
   left: 0;
   bottom: 0;
   right: 0;
-
+  background-size: contain !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
-    background-position: right center !important; // Show right side (face) on mobile
+    background-position: center center !important; // Center on mobile
   }
 
   .hero-title {
