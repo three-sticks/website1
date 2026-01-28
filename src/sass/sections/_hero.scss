@@ -174,8 +174,8 @@
       height: 100%;
       opacity: 0;
       transition: opacity 1.5s ease-in-out;
-      background-size: cover;
-      background-position: center;
+      background-size: contain;
+      background-position: center center;
       background-repeat: no-repeat;
 
       &.active {
